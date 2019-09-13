@@ -7,7 +7,7 @@ def map(array)
   new_array
 end 
 
-def reduce (array, starting_point = false)
+def reduce (array, starting_point = nil)
   if starting_point
     total = starting_point
   end
