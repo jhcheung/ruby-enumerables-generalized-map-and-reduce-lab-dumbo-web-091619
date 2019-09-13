@@ -9,5 +9,6 @@ end
 
 def reduce (array, starting_point = false)
   if starting_point
+    
   end 
 end 
