@@ -10,7 +10,7 @@ end
 def reduce (array, starting_point = 0)
   total = starting_point
   for i in array do 
-    total += i 
+    yield 
   end
   total
 end 
