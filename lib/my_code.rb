@@ -7,10 +7,7 @@ def map(array)
   new_array
 end 
 
-def reduce (array, starting_point = nil)
-  total = starting_point
-  for i in array do 
-    yield(total)
-  end
-  total
+def reduce (array, starting_point = false)
+  if starting_point
+  end 
 end 
