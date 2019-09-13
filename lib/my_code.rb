@@ -19,8 +19,5 @@ def reduce (array, starting_point = nil)
     total = yield(total, array[i])
     i += 1
   end 
-  if total == nil 
-    return false
-  end 
   total
 end 
